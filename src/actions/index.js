@@ -5,7 +5,7 @@ import {
     DELETE_POST,
     CREATE_POST
   } from './types';
-const Posts = new Firebase('https://fbredux.firebaseio.com/');
+const Posts = new Firebase('https://todo-e4cec.firebaseio.com');
 
 export function fetchPosts(){
     return dispatch =>{
